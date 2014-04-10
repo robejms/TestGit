@@ -21,6 +21,7 @@
 		67A2355118F71F8700B79D21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A2353318F71F8700B79D21 /* UIKit.framework */; };
 		67A2355918F71F8700B79D21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67A2355718F71F8700B79D21 /* InfoPlist.strings */; };
 		67A2355B18F71F8700B79D21 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A2355A18F71F8700B79D21 /* GitTestTests.m */; };
+		67A2356618F7224100B79D21 /* SSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A2356518F7224100B79D21 /* SSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		67A2355618F71F8700B79D21 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		67A2355818F71F8700B79D21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67A2355A18F71F8700B79D21 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		67A2356418F7224100B79D21 /* SSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTest.h; sourceTree = "<group>"; };
+		67A2356518F7224100B79D21 /* SSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		67A2352318F71F8700B79D21 = {
 			isa = PBXGroup;
 			children = (
+				67A2356418F7224100B79D21 /* SSTest.h */,
+				67A2356518F7224100B79D21 /* SSTest.m */,
 				67A2353518F71F8700B79D21 /* GitTest */,
 				67A2355418F71F8700B79D21 /* GitTestTests */,
 				67A2352E18F71F8700B79D21 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67A2354618F71F8700B79D21 /* SSViewController.m in Sources */,
+				67A2356618F7224100B79D21 /* SSTest.m in Sources */,
 				67A2354018F71F8700B79D21 /* SSAppDelegate.m in Sources */,
 				67A2353C18F71F8700B79D21 /* main.m in Sources */,
 			);
